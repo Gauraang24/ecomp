@@ -1,0 +1,775 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.landing img {
+    width: 100vw;
+}
+
+.company-profile {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: top;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.company-profile span {
+    font-size: 80px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.company-profile p {
+    font-size: 28px;
+    width: 680px;
+    height: 507px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
+
+.ytvid {
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.youtube iframe {
+    width: 860px;
+    height: 475px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.sidetags {
+    display: flex;
+    flex-direction: column;
+}
+
+#t01 h2 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#t01 p {
+    font-size: 28px;
+}
+
+.inspiration {
+    width: 90vw;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    color: #373737;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.section2 {
+    width: 90vw;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:1000px) {
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .vision-mission {
+        width: 90vw;
+        margin-top: 20px;
+    }
+
+    .vision p {
+        width: 100%;
+    }
+
+    .mission p {
+        width: 100%;
+    }
+
+}
+
+.vision-mission {
+    width: 680px;
+    padding-left: 30px;
+}
+
+#p1 {
+    font-size: 30px;
+}
+
+#p1 {
+    font-size: 28px;
+    color: #5f5f5f;
+}
+
+.vision span {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff9900;
+
+}
+
+.vision p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #292929;
+    font-style: italic;
+
+
+}
+
+.mission span {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff9900;
+
+}
+
+.mission p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #292929;
+    font-style: italic;
+}
+
+.section3 {
+    width: 100vw;
+    background: #036B6B;
+}
+
+.section3 p {
+    width: 90vw;
+    margin: auto;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    color: white;
+}
+
+.team {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+.team span {
+    font-size: 75px;
+    width: 534px;
+    font-weight: bold;
+
+}
+
+.content-right {
+    width: 680px;
+
+}
+
+.content-right p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.list span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.list li {
+    font-size: 28px;
+}
+
+.certificates {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.certificateimgs {
+    width: calc(300px*13);
+    display: flex;
+    flex-direction: row;
+    animation: scroll 10s linear infinite alternate;
+}
+
+.certificateimgs img {
+    width: 300px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-300px * 8));
+    }
+
+
+}
+
+.contactus {
+    width: 100vw;
+    height: auto;
+    background: #003F51;
+    margin-top: 70px;
+    margin-bottom: 134px;
+    box-shadow: 64px 64px rgba(1, 42, 60, 25%);
+}
+
+.content {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 45px;
+}
+
+.content img {
+    width: 450px;
+}
+
+@media (max-width:1250px) {
+    .content img {
+        display: none;
+    }
+}
+
+.leftcontent {
+    width: 580px;
+}
+
+.leftcontent h3 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.leftcontent p {
+    font-size: 30px;
+    color: #c1c1c1;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.leftcontent hr {
+    color: white;
+
+}
+
+.leftcontent button {
+    background: none;
+    border: none;
+    margin-top: 40px;
+}
+
+.leftcontent button a {
+    background: white;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.leftcontent button a:hover {
+    background: none;
+    color: white;
+    border: 2px solid white;
+}
+
+/* ..........................footer....................................... */
+.footer {
+    height: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "f1 f2";
+}
+
+.f1 {
+    background-color: #1e1e1e;
+    grid-area: f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.f1 img {
+    width: 100px;
+    padding: 30px 10px 0px 10px;
+    margin: auto;
+}
+
+.f1 p {
+    font-size: 18px;
+    padding: 10px 10px 30px 10px;
+    color: #a8a8a8;
+}
+
+.f2 {
+    grid-area: f2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 30px 30px 30px 30px;
+    background-color: #4e4e4e;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Footerproductlinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkheader {
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+}
+
+.linkfooter p {
+    padding: 10px 0px 0px 0px
+}
+
+.linkfooter p a {
+    font-size: 18px;
+    color: #a8a8a8;
+    padding: 10px;
+}
+
+.linkfooter a:hover {
+    color: rgb(255, 32, 24);
+}
+
+/* ..........................footer....................................... */
+/* ................................................................. */
+.copyright {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+
+.copyright p {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width:1200px) {
+    .company-profile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-profile p {
+        width: 100%;
+    }
+
+    .ytvid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .youtube iframe {
+        width: 100%;
+        place-self: center;
+    }
+
+    .sidetags {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .inspiration p {
+        font-size: 30px;
+    }
+
+    .vision p {
+        font-size: 20px;
+    }
+
+    .mission p {
+        font-size: 20px;
+    }
+
+    .section3 {
+        font-size: 30px;
+    }
+
+    .team span {
+        margin-right: 15px;
+    }
+
+    .certificateimgs img {
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-200px * 8));
+        }
+
+
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .company-profile {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .company-profile span {
+        font-size: 40px;
+    }
+
+    .company-profile p {
+        font-size: 20px;
+        height: 400px;
+    }
+
+    .ytvid {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .youtube iframe {
+        height: 320px;
+    }
+
+    #t01 h2 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    #t01 p {
+        font-size: 20px;
+    }
+
+    .inspiration {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .inspiration p {
+        font-size: 20px;
+    }
+
+    .section2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .ownerinfo img {
+        width: 80vw;
+        margin: auto;
+    }
+
+    .vision-mission {
+        width: 90vw;
+        margin: auto;
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .vision {
+        width: 90vw;
+        margin: 0px;
+    }
+
+    .vision span {
+        font-size: 30px;
+    }
+
+    .vision p {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .mission {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .mission span {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .mission p {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .section3 p {
+        font-size: 20px;
+    }
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .team p {
+        width: 90vw;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .content-right span {
+        font-size: 20px;
+    }
+
+    .team li {
+        font-size: 20px;
+    }
+
+    .certificates {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .certificateimgs img {
+        width: 100px;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-100px * 8));
+        }
+
+
+    }
+
+
+    .contactus {
+        box-shadow: none;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .leftcontent h3 {
+        font-size: 30px;
+    }
+
+    .leftcontent p {
+        font-size: 20px;
+    }
+
+    .leftcontent button a {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .company-profile span {
+        font-size: 25px;
+    }
+
+    .company-profile p {
+        font-size: 18px;
+        height: 200px;
+    }
+
+    .youtube iframe {
+        height: 180px;
+    }
+
+    #t01 h2 {
+        font-size: 20px;
+    }
+
+    #t01 p {
+        font-size: 18px;
+    }
+
+    .inspiration p {
+        font-size: 16px;
+    }
+
+    .vision-mission {
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .vision p {
+        font-size: 16px;
+    }
+
+    .vision span {
+        font-size: 18px;
+    }
+
+    .mission p {
+        font-size: 16px;
+    }
+
+    .mission span {
+        font-size: 18px;
+    }
+
+    .section3 p {
+        font-size: 16px;
+    }
+
+    .team span {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .team p {
+        font-size: 16px;
+    }
+
+    .content-right span {
+        font-size: 16px;
+    }
+
+    .list span {
+        font-size: 14px;
+    }
+
+    .list li {
+        font-size: 14px;
+    }
+
+    .content-right li {
+        font-size: 16px;
+    }
+
+    .leftcontent button {
+        margin-top: 10px;
+    }
+
+    .content p {
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    /* .certificateimgs img {
+        width: 100px;
+    }
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+    
+        100% {
+            transform: translateX(calc(-100px * 8));
+        }
+    
+    
+    } */
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f1 {
+        display: none;
+    }
+
+    .f1 p {
+        padding-bottom: 0px;
+        margin-bottom: 010px;
+    }
+
+    .f2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .linkheader {
+        padding: 0px;
+    }
+
+    .linkheader p {
+        margin: 0px;
+    }
+
+    .linkfooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .linkfooter p {
+        margin-bottom: 0px;
+    }
+
+    .linkfooter p a {
+        font-size: 14px;
+        padding: 0px;
+    }
+}

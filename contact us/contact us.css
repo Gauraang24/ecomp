@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+}
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.heading {
+    font-size: 100px;
+    font-weight: bold;
+    width: 508px;
+    margin: auto;
+}
+
+.heading h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.heading span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+}
+
+.contact-us-details {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left {
+    margin-top: 30px;
+}
+
+.left form {
+    width: 600px;
+    border: 1px solid rgba(0, 0, 0, 40%);
+    border-radius: 15px;
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 50%);
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#name {
+    width: 500px;
+    margin: 20px;
+    font-size: 30px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 40%);
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 50%);
+}
+
+#Email {
+    width: 500px;
+    height: 60px;
+    margin: 20px;
+    font-size: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 40%);
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 50%);
+}
+
+#Message {
+    width: 500px;
+    margin: 20px;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 40%);
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 50%);
+}
+
+#Submit {
+    width: 500px;
+    height: 60px;
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 70%);
+}
+
+.details input {
+    padding-left: 15px;
+    width: 640px;
+}
+
+.right {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+@media (max-width:1301px) {
+    .contact-us-details {
+        justify-content: center;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 900px;
+        justify-content: space-between;
+        margin: 100px auto auto 100px;
+
+
+    }
+
+    .email {
+        margin-right: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        width: 300px;
+    }
+
+    .Contact--Us {
+        margin-right: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        width: 300px;
+    }
+
+    .visit-us {
+        margin-right: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        width: 300px;
+    }
+
+    .Follow {
+        margin-right: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        width: 300px;
+    }
+}
+
+.Rheading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Rtext {
+    font-size: 25px;
+    color: #333333;
+}
+
+.Rtext p {
+    text-decoration-line: underline;
+}
+
+.email,
+.Contact--Us,
+.visit-us,
+.Follow {
+    margin-bottom: 20px;
+}
+
+/* .......................map........................... */
+.map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.map iframe {
+    width: 100%;
+    border: 10px solid black;
+    border-radius: 15px;
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 50%);
+}
+
+/* ..........................footer....................................... */
+.footer {
+    height: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "f1 f2";
+}
+.f1 {
+    background-color: #1e1e1e;
+    grid-area: f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.f1 img {
+    width: 100px;
+    padding: 30px 10px 0px 10px;
+    margin: auto;
+}
+.f1 p {
+    font-size: 18px;
+    padding: 10px 10px 30px 10px;
+    color: #a8a8a8;
+}
+.f2 {
+    grid-area: f2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 30px 30px 30px 30px;
+    background-color: #4e4e4e;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Footerproductlinks {
+    display: flex;
+    flex-direction: column;
+}
+.linkheader {
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+}
+.linkfooter p {
+    padding: 10px 0px 0px 0px
+}
+.linkfooter p a {
+    font-size: 18px;
+    color: #a8a8a8;
+    padding: 10px;
+}
+.linkfooter a:hover {
+    color: rgb(255, 32, 24);
+}
+/* ..........................footer....................................... */
+/* ................................................................. */
+.copyright {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+
+.copyright p {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+@media only screen and (max-width:800px) and (min-width:600px) {
+    
+    .details #name {
+        width: 500px;
+        height: 50px;
+        font-size: 25px;
+        margin: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #Email {
+        width: 500px;
+        height: 50px;
+        font-size: 25px;
+        margin: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #Message {
+        padding: 15px;
+        height: 220px;
+        font-size: 25px;
+        margin: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .details {
+        width: 500px;
+        margin: auto;
+    }
+    .left form {
+        width: 550px;
+    }
+    .Rheading {
+        font-size: 25px;
+    }
+    .Rtext {
+        font-size: 21px;
+    }
+    .right{
+        margin: 0;
+    }
+    .email{
+        margin: auto;
+        margin-top: 50px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .Contact--Us{
+        display: flex;
+        margin: auto;
+        margin-top: 50px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+        justify-content: space-between;
+    }
+    .visit-us{
+        margin: auto;
+        margin-top: 50px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .Follow{
+        margin: auto;
+        margin-top: 50px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:600px){
+    .heading h1{
+        text-align: center;
+        font-size: 50px;
+        width: 220px;
+    }
+    .details #name {
+        width: 360px;
+        height: 35px;
+        font-size: 20px;
+        margin: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 10px;
+    }
+    #Email {
+        width: 360px;
+        height: 35px;
+        font-size: 20px;
+        margin: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 10px;
+    }
+    #Message {
+        width: 360px;
+        padding: 15px;
+        height: 180px;
+        font-size: 20px;
+        margin: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .details #Submit{
+        width: 360px;
+    }
+    .details {
+        width: px;
+        margin: auto;
+    }
+    .left form {
+        width: 420px;
+    }
+    .Rheading {
+        font-size: 21px;
+    }
+    .Rtext {
+        font-size: 18px;
+    }
+    .right{
+        margin: 0;
+    }
+    .email{
+        margin: auto;
+        margin-top: 50px;
+        padding-top: 40px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .Contact--Us{
+        display: flex;
+        margin: auto;
+        margin-top: 40px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+        justify-content: space-between;
+    }
+    .visit-us{
+        margin: auto;
+        margin-top: 40px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .Follow{
+        margin: auto;
+        margin-top: 40px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .map iframe{
+        height: 300px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .f1{
+        display: none;
+    }
+    .f1 p {
+        padding-bottom: 0px;
+        margin-bottom: 010px;
+    }
+    .f2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .linkheader {
+        padding: 0px;
+    }
+    .linkheader p {
+        margin: 0px;
+    }
+    .linkfooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .linkfooter p {
+        margin-bottom: 0px;
+    }
+    .linkfooter p a {
+        font-size: 14px;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width:450px){
+    .heading{
+        width: 100vw;
+    }
+    .heading h1{
+        text-align: center;
+        font-size: 30px;
+        width: 150px;
+        margin: auto;
+    }
+    .heading span {
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
+    }
+    .details #name {
+        width: 250px;
+        height: 35px;
+        font-size: 16px;
+        margin: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 5px;
+        padding: 8px;
+    }
+    #Email {
+        width: 250px;
+        height: 35px;
+        font-size: 16px;
+        margin: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 5px;
+        padding: 8px;
+    }
+    #Message {
+        width: 250px;
+        padding: 8px;
+        height: 180px;
+        font-size: 16px;
+        margin: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 5px;
+    }
+    .details{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .details #Submit{
+        width: 250px;
+        padding: 0;
+        margin: 0px;
+        height: 35px;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .left form {
+        width: 300px;
+    }
+    .Rheading {
+        font-size: 21px;
+    }
+    .Rtext {
+        font-size: 18px;
+    }
+    .right{
+        margin: 0;
+    }
+    .email{
+        margin: auto;
+        margin-top: 50px;
+        padding-top: 40px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .Contact--Us{
+        display: flex;
+        margin: auto;
+        margin-top: 40px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+        justify-content: space-between;
+    }
+    .visit-us{
+        margin: auto;
+        margin-top: 40px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .Follow{
+        margin: auto;
+        margin-top: 40px;
+        width: 80vw;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+    }
+    .map iframe{
+        height: 280px;
+    }
+}

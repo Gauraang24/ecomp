@@ -1,0 +1,603 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", "sans-serif";
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* ..........................landing....................................... */
+.landing {
+    width: 100vw;
+    height: auto;
+    background-color: white;
+}
+
+.landing img {
+    width: 100%;
+}
+
+/* ..........................nlanding....................................... */
+/* ..........................details....................................... */
+.Details {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 35px 0px 35px 0px;
+}
+
+.leftside {
+    height: auto;
+    flex: 1 1 500px;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.missiontop {
+    font-size: 16;
+    font-weight: 800;
+    color: #FFB23F;
+    margin: 10px 15px 10px 15px;
+}
+
+.missionmid {
+    font-size: 44px;
+    margin: 10px 15px 10px 15px;
+}
+
+.missionbottom {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    margin: 10px 15px 10px 15px;
+}
+
+#M1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#M2 {
+    font-size: 21px;
+    font-weight: 100;
+    color: #AFADB5;
+}
+
+.rightside {
+    height: auto;
+    flex: 1 1 300px;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numberM1 {
+    text-align: center;
+}
+
+.M001 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.M002 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #AFADB5;
+}
+
+/* ..........................details....................................... */
+/* ..........................reviews....................................... */
+.Reviews {
+    background-color: thistle;
+    height: 600px;
+    width: 100%;
+}
+
+.reviewheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.R1 {
+    font-size: 18px;
+    color: #FFB23F;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.R2 {
+    font-size: 40px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.R3 {
+    font-size: 18px;
+    width: 757px;
+    text-align: center;
+    font-style: italic;
+    color: rgba(0, 0 0, 50%);
+    padding: 15px;
+}
+
+.customerreviews {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.reviews {
+    width: 517px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 28px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.customerprofile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.555);
+    font-weight: bold;
+}
+
+.customerdetail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.customerdetail p {
+    padding-left: 10px;
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.ratings p {
+    padding: 10px;
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+/* ..........................reviews....................................... */
+/* ..........................shipping....................................... */
+.Shipping {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px 0rem 60px 0rem;
+}
+
+.shipping0001 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.shipping0001 p {
+    width: 220px;
+    font-size: 24px;
+    padding: 0px 10px 0px 10px;
+}
+
+/* ..........................shipping....................................... */
+/* ..........................subscribe....................................... */
+.Subscribe {
+    height: 522px;
+    width: 100vw;
+    box-sizing: border-box;
+    background-image: url(/Images/subscribe\ background.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribetop {
+    font-size: 36px;
+    color: white;
+    padding: 10px;
+}
+
+.subscribemid {
+    width: 700px;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.subscribebottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribebottom #gmail {
+    width: 600px;
+    height: 60px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.836);
+    color: black;
+    align-self: center;
+}
+
+.subscribebottom input {
+    align-self: center;
+    padding: 20px;
+}
+
+.subscribebottom button {
+    height: 60px;
+    width: 600px;
+    font-size: 24px;
+    background-color: #000;
+    color: white;
+    border-radius: 16px;
+    margin: 10px;
+}
+
+/* ..........................subscribe....................................... */
+/* ..........................footer....................................... */
+.footer {
+    height: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "f1 f2";
+}
+
+.f1 {
+    background-color: #1e1e1e;
+    grid-area: f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.f1 img {
+    width: 100px;
+    padding: 30px 10px 0px 10px;
+    margin: auto;
+}
+
+.f1 p {
+    font-size: 18px;
+    padding: 10px 10px 30px 10px;
+    color: #a8a8a8;
+}
+
+.f2 {
+    grid-area: f2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 30px 30px 30px 30px;
+    background-color: #4e4e4e;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Footerproductlinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkheader {
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+}
+
+.linkfooter p {
+    padding: 10px 0px 0px 0px
+}
+
+.linkfooter p a {
+    font-size: 18px;
+    color: #a8a8a8;
+    padding: 10px;
+}
+
+.linkfooter a:hover {
+    color: rgb(255, 32, 24);
+}
+
+/* ..........................footer....................................... */
+/* ................................................................. */
+.copyright {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+
+.copyright p {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+/* ........mediaqueries.............. */
+@media only screen and (max-width:800px) and (min-width:500px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Subscribe {
+        height: 450px;
+        width: 100vw;
+    }
+
+    .subscribetop {
+        font-size: 30px;
+    }
+
+    .subscribemid {
+        width: 450px;
+        font-size: 20px;
+    }
+
+    .subscribebottom #gmail {
+        width: 450px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .subscribebottom button {
+        height: 50px;
+        width: 450px;
+        font-size: 20px;
+    }
+
+    .Shipping {
+        padding: 30px;
+    }
+
+    .shipping0001 p {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    /* reviews */
+    .R1 {
+        padding: 0px;
+    }
+
+    .R2 {
+        font-size: 35px;
+    }
+
+    .R3 {
+        font-size: 18px;
+        width: 480px;
+        padding: 0px;
+    }
+
+    .reviews {
+        width: 350px;
+    }
+
+    .customerreviews {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .Details {
+        padding: 0px;
+    }
+
+    .leftside {
+        margin: auto;
+
+    }
+
+    .leftside p {
+        margin-bottom: 0px;
+    }
+
+    .missionmid {
+        font-size: 30px;
+    }
+
+    .numberM1 {
+        padding: 5px;
+    }
+
+    #M1 {
+        font-size: 30px;
+    }
+
+    #M2 {
+        font-size: 18px;
+    }
+
+    .rightside {
+        margin: 0;
+    }
+
+    .M001 p {
+        margin-bottom: 5px;
+    }
+
+    .M002 p {
+        margin-bottom: 5px;
+    }
+
+    .number1 {
+        margin-bottom: 0px;
+    }
+
+    .reviewheading {
+        padding: 25px;
+    }
+
+    .R2 {
+        font-size: 30px;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .R3 {
+        width: 300px;
+    }
+
+    .reviews {
+        width: 280px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .reviews p {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    .customerreviews {
+        padding-bottom: 10px;
+    }
+
+    .Shipping {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    /* subscribe */
+    .Subscribe {
+        height: 320px;
+        width: 100vw;
+    }
+
+    .subscribetop {
+        font-size: 30px;
+    }
+
+    .subscribemid {
+        width: 320px;
+        font-size: 18px;
+        padding: 0px;
+    }
+
+    .subscribemid p {
+        margin-bottom: 0px;
+    }
+
+    .subscribebottom #gmail {
+        width: 320px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .subscribebottom button {
+        height: 50px;
+        width: 320px;
+        font-size: 20px;
+    }
+
+    .shipping0001 {
+        padding: 0px;
+    }
+
+    .shipping0001 p {
+        padding: 0px;
+        margin-bottom: 0px;
+        padding-left: 5px;
+    }
+
+    /* footer */
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f1 {
+        display: none;
+    }
+
+    .f1 p {
+        padding-bottom: 0px;
+        margin-bottom: 010px;
+    }
+
+    .f2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .linkheader {
+        padding: 0px;
+    }
+
+    .linkheader p {
+        margin: 0px;
+    }
+
+    .linkfooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .linkfooter p {
+        margin-bottom: 0px;
+    }
+
+    .linkfooter p a {
+        font-size: 14px;
+        padding: 0px;
+    }
+}

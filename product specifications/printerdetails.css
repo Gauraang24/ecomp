@@ -1,0 +1,604 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+
+}
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* ................................................................. */
+/* ..........................Landing....................................... */
+.landing {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.printerphoto {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.printerphoto img {
+    width: 80%;
+    height: auto;
+}
+
+.info {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.info h1 {
+    font-size: 38px;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+/* ..........................landing....................................... */
+/* ..........................Taglines....................................... */
+.taglines {
+    width: 100vw;
+    height: auto;
+}
+
+.tagline1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.tagline1 img {
+    margin: 30px;
+    width: 50%;
+}
+
+.tagtext {
+    margin: 30px;
+}
+
+.tagtext span {
+    font-size: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.tagline1 p {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.tagline2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.tagline2 p {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tagline2 img {
+    width: 100%;
+}
+
+.tagtext2 {
+    text-align: right;
+}
+
+.tagtext2 span {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.tagtext2 p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-specification {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-specification p {
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.S1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.S1 h4 {
+    font-size: 41px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    border-bottom: 1px solid red;
+}
+
+.Pdetails {
+    padding: 30px 0px 30px 0px;
+}
+
+.S2 {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.S2 span {
+    width: 279px;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+/* ..........................ProductSpecification....................................... */
+/* ..........................shipping....................................... */
+.Shipping {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px 0px 60px 0px;
+}
+
+.shipping0001 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.shipping0001 p {
+    width: 230px;
+    font-size: 24px;
+    padding: 0px 10px 0px 10px;
+}
+
+/* ..........................shipping....................................... */
+/* ..........................subscribe....................................... */
+.Subscribe {
+    height: 522px;
+    width: 100vw;
+    background-image: url(/Images/subscribe\ background.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribetop {
+    font-size: 36px;
+    color: white;
+    padding: 10px;
+}
+
+.subscribemid {
+    width: 700px;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.subscribebottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribebottom #gmail {
+    width: 600px;
+    height: 60px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.836);
+    color: black;
+    align-self: center;
+}
+
+.subscribebottom input {
+    align-self: center;
+    padding: 20px;
+}
+
+.subscribebottom button {
+    height: 60px;
+    width: 600px;
+    font-size: 24px;
+    background-color: #000;
+    color: white;
+    border-radius: 16px;
+    margin: 10px;
+}
+
+/* ..........................subscribe....................................... */
+/* ..........................footer....................................... */
+.footer {
+    height: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "f1 f2";
+}
+
+.f1 {
+    background-color: #1e1e1e;
+    grid-area: f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.f1 img {
+    width: 100px;
+    padding: 30px 10px 0px 10px;
+    margin: auto;
+}
+
+.f1 p {
+    font-size: 18px;
+    padding: 10px 10px 30px 10px;
+    color: #a8a8a8;
+}
+
+.f2 {
+    grid-area: f2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 30px 30px 30px 30px;
+    background-color: #4e4e4e;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Footerproductlinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkheader {
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+}
+
+.linkfooter p {
+    padding: 10px 0px 0px 0px
+}
+
+.linkfooter p a {
+    font-size: 18px;
+    color: #a8a8a8;
+    padding: 10px;
+}
+
+.linkfooter a:hover {
+    color: rgb(255, 32, 24);
+}
+
+/* ..........................footer....................................... */
+/* ................................................................. */
+.copyright {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+
+.copyright p {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+@media only screen and (max-width:1200px) and (min-width:00px) {
+    .info h1 {
+        font-size: 34px;
+    }
+
+    .info p {
+        margin-bottom: 6px;
+        font-size: 16px;
+    }
+
+    .tagtext {
+        margin: 20px;
+
+    }
+
+    .tagtext p {
+        font-size: 40px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    .tagtext span {
+        padding: auto;
+        font-size: 25px;
+    }
+
+    .tagtext2 span {
+        font-size: 40px;
+    }
+
+    .tagtext2 p {
+        font-size: 25px;
+    }
+
+    .tagline2 p {
+        font-size: 40px;
+    }
+
+    .product-specification p {
+        font-size: 40px;
+    }
+
+    .product-specification h4 {
+        font-size: 30px;
+    }
+
+    .product-specification span {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:800px) and (min-width:550px) {
+    .info h1 {
+        font-size: 26px;
+        margin-bottom: 1px;
+    }
+
+    .info p {
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+
+    .tagtext span {
+        font-size: clamp(20px, 5vw, 23px);
+        padding: 7px;
+    }
+
+    .tagtext p {
+        font-size: clamp(30px, 5vw, 40px);
+    }
+
+    .tagline2 p {
+        font-size: clamp(30px, 5vw, 40px);
+    }
+    .tagline1 span{
+        font-size: clamp(30px, 5vw, 40px);
+    }
+    .tagline1 p{
+        font-size: 20px;
+    }
+    .product-specification p{
+        font-size: clamp(30px, 5vw, 40px);
+        margin-bottom: 0px;
+    }
+    .product-specification h4{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .product-specification span{
+        font-size:18px;
+    }
+    .Pdetails{
+        padding: 15px 0px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .Subscribe {
+        height: 450px;
+        width: 100vw;
+    }
+    .subscribetop {
+        font-size: 30px;
+    }
+    .subscribemid {
+        width: 450px;
+        font-size: 20px;
+    }
+    .subscribebottom #gmail {
+        width: 450px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .subscribebottom button {
+        height: 50px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .Shipping {
+        padding: 30px;
+    }
+    .shipping0001 p {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width:550px) {
+    .landing{
+        padding-top: 0px;
+    }
+    .info h1{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .info p{
+        font-size: 14px;
+        margin-bottom: 1px;
+    }
+
+    .Shipping {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .tagtext span{
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .tagtext p{
+        font-size: 24px;
+    }
+    .tagline1 img{
+        margin: 10px;
+    }
+    .tagline2 p{
+        font-size: 24px;
+    }
+    .tagtext2 span{
+        font-size: 24px;
+    }
+    .tagtext2 p{
+        font-size: 18px;
+    }
+    .product-specification p{
+        font-size: 24px;
+        text-align: center;
+    }
+    .product-specification h4{
+        font-size: 20px;
+    }
+    .product-specification span{
+        font-size: 16px;
+    }
+    .Pdetails{
+        padding: 10px 0px;
+    }
+    .Pdetails span{
+        width: 100px;
+    }
+
+    .Subscribe {
+        height: 320px;
+        width: 100vw;
+    }
+    
+
+    .subscribetop {
+        font-size: 30px;
+    }
+
+    .subscribemid {
+        width: 320px;
+        font-size: 18px;
+        padding: 0px;
+    }
+
+    .subscribemid p {
+        margin-bottom: 0px;
+    }
+
+    .subscribebottom #gmail {
+        width: 320px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .subscribebottom button {
+        height: 50px;
+        width: 320px;
+        font-size: 20px;
+    }
+
+    .shipping0001 {
+        padding: 0px;
+    }
+
+    .shipping0001 p {
+        padding: 0px;
+        margin-bottom: 0px;
+        padding-left: 5px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f1 {
+        display: none;
+    }
+
+    .f1 p {
+        padding-bottom: 0px;
+        margin-bottom: 010px;
+    }
+
+    .f2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .linkheader {
+        padding: 0px;
+    }
+
+    .linkheader p {
+        margin: 0px;
+    }
+
+    .linkfooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .linkfooter p {
+        margin-bottom: 0px;
+    }
+
+    .linkfooter p a {
+        font-size: 14px;
+        padding: 0px;
+    }
+}

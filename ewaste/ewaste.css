@@ -1,0 +1,504 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "poppins", "sans-serif";
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ............................................................. */
+.landing {
+  width: 100%;
+  height: auto;
+}
+
+.landing img {
+  width: 100%;
+}
+
+.ewasteDos {
+  width: 100vw;
+  height: auto;
+}
+
+.ewasteDos img {
+  width: 100%;
+}
+
+.ewasteDonts {
+  width: 100vw;
+  height: auto;
+}
+
+.ewasteDonts img {
+  width: 100%;
+}
+
+.rohs {
+  width: 85vw;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.rohsheading {
+  font-size: 76.8px;
+}
+
+.rohstext {
+  font-size: 33.6px;
+  text-align: left;
+}
+
+.ewastecollection {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collectionheading {
+  font-size: 4.8rem;
+  font-weight: bold;
+}
+
+.collectiontext {
+  width: 90vw;
+  font-size: 2.1rem;
+  padding: 15px;
+  text-align: left;
+  height: auto;
+
+}
+
+/* ....................................................................................................................................................... */
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:nth-of-type(even) {
+  background-color: #fff;
+  color: #333;
+}
+
+tr:nth-of-type(odd) {
+  background-color: rgb(175, 175, 175);
+  color: #333;
+}
+
+th {
+  background-color: #383838;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+td,
+th {
+  padding: 1rem;
+  border: 0.1rem solid rgb(119, 119, 119);
+  text-align: center;
+}
+
+td {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width:768px),
+(min-device-width:768px) and (max-device-width:992px) {
+  .table-container {
+    width: 95%;
+    background: transparent;
+  }
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid rgb(128, 128, 128);
+    margin-bottom: 10px;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    text-align: right;
+  }
+
+  td::before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  td:nth-of-type(1)::before {
+    content: "Sr.no";
+  }
+
+  td:nth-of-type(2)::before {
+    content: "State";
+  }
+
+  td:nth-of-type(3)::before {
+    content: "Location";
+  }
+
+  td:nth-of-type(4)::before {
+    content: "Address";
+  }
+
+  td:nth-of-type(5)::before {
+    content: "Contact Person Detail";
+  }
+
+  td:nth-of-type(6)::before {
+    content: "Contact Number";
+  }
+}
+
+/* ..........................subscribe....................................... */
+.Subscribe {
+  height: 522px;
+  width: 100vw;
+  background-image: url(/Images/subscribe\ background.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribetop {
+  font-size: 36px;
+  color: white;
+  padding: 10px;
+}
+
+.subscribemid {
+  width: 700px;
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.subscribebottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribebottom #gmail {
+  width: 600px;
+  height: 60px;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.836);
+  color: black;
+  align-self: center;
+}
+
+.subscribebottom input {
+  align-self: center;
+  padding: 20px;
+}
+
+.subscribebottom button {
+  height: 60px;
+  width: 600px;
+  font-size: 24px;
+  background-color: #000;
+  color: white;
+  border-radius: 16px;
+  margin: 10px;
+}
+
+/* ..........................subscribe....................................... */
+/* ..........................footer....................................... */
+.footer {
+  height: auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 30% 70%;
+  grid-template-areas: "f1 f2";
+}
+
+.f1 {
+  background-color: #1e1e1e;
+  grid-area: f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.f1 img {
+  width: 100px;
+  padding: 30px 10px 0px 10px;
+  margin: auto;
+}
+
+.f1 p {
+  font-size: 18px;
+  padding: 10px 10px 30px 10px;
+  color: #a8a8a8;
+}
+
+.f2 {
+  grid-area: f2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 30px 30px 30px 30px;
+  background-color: #4e4e4e;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.Footerproductlinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkheader {
+  font-size: 20px;
+  text-decoration: underline;
+  color: white;
+  padding: 10px;
+}
+
+.linkfooter p {
+  padding: 10px 0px 0px 0px
+}
+
+.linkfooter p a {
+  font-size: 18px;
+  color: #a8a8a8;
+  padding: 10px;
+}
+
+.linkfooter a:hover {
+  color: rgb(255, 32, 24);
+}
+
+/* ..........................footer....................................... */
+/* ................................................................. */
+.copyright {
+  width: 100vw;
+  height: auto;
+  background-color: black;
+}
+
+.copyright p {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+
+@media only screen and (max-width:1200px) {
+  .collectionheading {
+    font-size: 60px;
+  }
+
+  .collectiontext {
+    font-size: 24px;
+  }
+
+  .rohsheading {
+    font-size: 60px;
+  }
+
+  .rohstext {
+    font-size: 24px;
+  }
+
+  td {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ewastecollection {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .collectionheading {
+    font-size: 40px;
+  }
+
+  .collectiontext {
+    font-size: 21px;
+  }
+
+  .rohs {
+    width: 90vw;
+  }
+
+  .rohsheading {
+    font-size: 40px;
+  }
+
+  .rohstext {
+    font-size: 21px;
+  }
+
+  td {
+    font-size: 20px;
+  }
+  .Subscribe {
+    height: 450px;
+    width: 100vw;
+}
+.subscribetop {
+    font-size: 30px;
+}
+.subscribemid {
+    width: 450px;
+    font-size: 20px;
+}
+.subscribebottom #gmail {
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+}
+.subscribebottom button {
+    height: 50px;
+    width: 450px;
+    font-size: 20px;
+}
+}
+
+@media only screen and (max-width:500px) {
+  .ewastecollection {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .collectionheading {
+    font-size: 30px;
+  }
+
+  .collectiontext {
+    font-size: 16px;
+  }
+
+  .rohs {
+    width: 90vw;
+  }
+
+  .rohsheading {
+    font-size: 30px;
+  }
+
+  .rohstext {
+    font-size: 14px;
+  }
+
+  td {
+    font-size: 12px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+}
+.f1{
+    display: none;
+}
+.f1 p {
+    padding-bottom: 0px;
+    margin-bottom: 010px;
+}
+.f2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.linkheader {
+    padding: 0px;
+}
+.linkheader p {
+    margin: 0px;
+}
+.linkfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.linkfooter p {
+    margin-bottom: 0px;
+}
+.linkfooter p a {
+    font-size: 14px;
+    padding: 0px;
+}
+.Subscribe {
+  height: 320px;
+  width: 100vw;
+}
+.subscribetop {
+  font-size: 30px;
+}
+.subscribemid {
+  width: 320px;
+  font-size: 18px;
+  padding: 0px;
+}
+.subscribemid p{
+  margin-bottom: 0px;
+}
+.subscribebottom #gmail {
+  width: 320px;
+  height: 50px;
+  font-size: 20px;
+}
+.subscribebottom button {
+  height: 50px;
+  width: 320px;
+  font-size: 20px;
+}
+
+}

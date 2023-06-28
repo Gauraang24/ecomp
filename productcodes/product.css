@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "sans-serif";
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* .................................Main................... */
+.main {
+    width: 100vw;
+    height: auto;
+}
+
+.main img {
+    width: 100%;
+}
+
+/* .................................Main................... */
+/* .................................header................... */
+.header {
+    width: 90vw;
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin: 50px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.btn01 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#p01 {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.btn01 a {
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.btn a:hover {
+    color: rgb(119, 119, 119);
+}
+
+/* .................................header................... */
+/* .................................Productcard................... */
+.productscard {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 50px auto;
+}
+
+.P-Series1 {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 10px 50px 10px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-decoration-line: underline;
+    color: #3c3c3c;
+}
+
+.printers {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+
+.printers a {
+    width: 1fr;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #3c3c3c;
+    padding: 10px;
+}
+
+.printers a img {
+    width: 100%;
+}
+
+.printers a p {
+    /* width: 320px; */
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.printers a:hover {
+    background: rgb(216, 216, 216);
+    color: #696969;
+}
+
+.Subscribe {
+    width: 100vw;
+    height: 522px;
+    background-image: url(/Images/subscribe\ background.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribetop {
+    font-size: 36px;
+    color: white;
+    padding: 10px;
+}
+
+.subscribemid {
+    width: 700px;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.subscribebottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribebottom #gmail {
+    width: 600px;
+    height: 60px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.836);
+    color: black;
+    align-self: center;
+}
+
+.subscribebottom input {
+    align-self: center;
+    padding: 20px;
+}
+
+.subscribebottom button {
+    height: 60px;
+    width: 600px;
+    font-size: 24px;
+    background-color: #000;
+    color: white;
+    border-radius: 16px;
+    margin: 10px;
+}
+
+/* ..........................subscribe....................................... */
+/* ..........................footer....................................... */
+.footer {
+    height: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "f1 f2";
+}
+
+.f1 {
+    background-color: #1e1e1e;
+    grid-area: f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.f1 img {
+    width: 100px;
+    padding: 30px 10px 0px 10px;
+    margin: auto;
+}
+
+.f1 p {
+    /* width: 340px; */
+    font-size: 18px;
+    /* text-align: justify; */
+    padding: 10px 10px 30px 10px;
+
+    /* margin: auto; */
+    color: #a8a8a8;
+}
+
+.f2 {
+    grid-area: f2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 30px 30px 30px 30px;
+    background-color: #4e4e4e;
+
+    /* background: url(/Images/footer\ bg.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Footerproductlinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkheader {
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+}
+
+.linkfooter p {
+    padding: 10px 0px 0px 0px
+}
+
+.linkfooter p a {
+    font-size: 18px;
+    color: #a8a8a8;
+    padding: 10px;
+}
+
+.linkfooter a:hover {
+    color: rgb(255, 32, 24);
+}
+
+/* ..........................footer....................................... */
+.copyright {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+
+.copyright p {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+@media only screen and (max-width:800px) and (min-width:550px) {
+    .header {
+        margin: 30px;
+    }
+
+    .header h1 {
+        font-size: 65px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn01 a {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .printers {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .printers a {
+        width: 240px;
+        padding: 0;
+    }
+
+    .productscard {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Subscribe {
+        height: 450px;
+        width: 100vw;
+    }
+
+    .subscribetop {
+        font-size: 30px;
+    }
+
+    .subscribemid {
+        width: 450px;
+        font-size: 20px;
+    }
+
+    .subscribebottom #gmail {
+        width: 450px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .subscribebottom button {
+        width: 450px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .header {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        margin: 10px;
+    }
+
+    .btn01 a {
+        font-size: 20px;
+    }
+
+    .P-Series1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .productscard {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .productscard h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .printers {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .printers a {
+        width: 150px;
+    }
+
+    .printers a p {
+        font-size: 16px;
+    }
+
+    .Subscribe {
+        height: 320px;
+        width: 100vw;
+    }
+
+    .subscribetop {
+        font-size: 30px;
+    }
+
+    .subscribemid {
+        width: 320px;
+        font-size: 18px;
+        padding: 0px;
+    }
+    .subscribemid p{
+        margin-bottom: 0px;
+    }
+
+    .subscribebottom #gmail {
+        width: 320px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .subscribebottom button {
+        height: 50px;
+        width: 320px;
+        font-size: 20px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .f1{
+        display: none;
+    }
+    .f1 p {
+        padding-bottom: 0px;
+        margin-bottom: 010px;
+    }
+    .f2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .linkheader {
+        padding: 0px;
+    }
+    .linkheader p {
+        margin: 0px;
+    }
+    .linkfooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .linkfooter p {
+        margin-bottom: 0px;
+    }
+    .linkfooter p a {
+        font-size: 14px;
+        padding: 0px;
+    }
+}
