@@ -121,7 +121,7 @@ h2 {
 .Subscribe {
     width: 100vw;
     height: 522px;
-    background-image: url(./Images/subscribebackground.svg);
+    background-image: url(/Images/subscribebackground.svg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -217,7 +217,7 @@ h2 {
     padding: 30px 30px 30px 30px;
     background-color: #4e4e4e;
 
-    /* background: url(./Images/footer\ bg.jpg); */
+    /* background: url(/Images/footer\ bg.jpg); */
     background-repeat: no-repeat;
     background-size: 100%;
 }

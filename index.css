@@ -235,7 +235,7 @@ body {
     height: 522px;
     width: 100vw;
     box-sizing: border-box;
-    background-image: url(./Images/subscribebackground.svg);
+    background-image: url(/Images/subscribebackground.svg);
     display: flex;
     flex-direction: column;
     justify-content: center;
