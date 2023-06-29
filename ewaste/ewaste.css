@@ -199,7 +199,7 @@ td {
 .Subscribe {
   height: 522px;
   width: 100vw;
-  background-image: url(./Images/subscribe\ background.svg);
+  background-image: url(./Images/subscribebackground.svg);
   display: flex;
   flex-direction: column;
   justify-content: center;
